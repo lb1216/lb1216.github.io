@@ -9,37 +9,35 @@ redirect_from:
 
 {% include base_path %}
 
+Areas of Specialization
+======
+Feminist Moral Psychology, 20th Century Continental Philosophy, Medical Humanities
+
+Areas of Competence
+======
+Ethics, Social and Political Philosophy
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Philosophy, École Normale Supérieure (Ulm), Paris, France, 2018
+* M.A. in Contemporary Philosophy, École Normale Supérieure (Ulm), Paris, France, 2014
+* M.A. in Public Affairs, Sciences Po, Paris, France, 2014
+* B.A. in Philosophy, University Paris X, Nanterre, France, 2011
 
-Work experience
+Academic Positions
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2021–present: Assistant Professor of Philosophy and French, University of New Hampshire
+  * Core Faculty Member, Women and Gender Studies
+* 2019–2021: Assistant Professor of Philosophy, University of Strasbourg, France
+* 2018–2019: Postdoctoral Fellow, Palliative Care Unit Jeanne Garnier, Paris, France
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Grants and Awards
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2026: RGSCP and the Public Good Grant, "Leading with the Liberal Arts: A UNH Model for Promoting Civic Engagement with NH's Emerging Biofabrication Sector" (with Professors Mellyn, Aralere, and Wainwright)
+* 2026: New Hampshire Humanities Collaborative Spring Symposium on Medical Humanities
+* 2026: Working Group on Medical Humanities – Transdisciplinary Activity Grant, awarded by Dean Michele Dillon
+* 2024–2025: Faculty Fellowship, Center for the Humanities, UNH
+* 2018–2019: Postdoctoral Fellowship, ENS–Jeanne Garnier, Paris
 
 Publications
 ======
@@ -58,7 +56,21 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Languages
 ======
-* Currently signed in to 43 different slack teams
+* French: Native
+* English: Fluent
+* Ancient Greek: Reading competence
+* Latin: Translation competence
+
+Service and Professional Activities
+======
+* 2025–present: Co-Founder, Institute for Bioethics and Public Life, UNH (with Elizabeth Mellyn, Anna Wainwright, and Katie Umans)
+* 2025: Organizer and fundraiser, one-day conference in honor of Charlotte Witt, UNH (speakers: Sally Haslanger, Louise Antony, and Asta)
+* 2022–2024: Senator for Philosophy, UNH
+* 2021–present: Faculty Advisor, French Café, French Program, UNH
+* 2020–2021: Co-organizer, research seminar "Lire Malaise dans la Civilisation," University of Strasbourg
+* 2019–2020: Co-organizer, research seminar "La clinique de la deliberation," University of Strasbourg
+* 2026: Referee, Feminist Philosophy Quarterly
+* 2021: Referee, Tracés: Revue de Sciences Humaines
