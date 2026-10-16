@@ -85,11 +85,15 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
-    title: 'Books'
+    title: 'Monograph'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: 'Peer-Reviewed Articles'
+  chapters:
+    title: 'Book Chapters'
+  prefaces:
+    title: 'Introductions and Prefaces'
+  textbooks:
+    title: 'Textbook Contributions'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
