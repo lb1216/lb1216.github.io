@@ -43,7 +43,7 @@ Publications
 ======
 **Monograph**
 
-* Barillas, L. *Powerlessness. A Theory.* Manuscript under contract, Oxford University Press.
+* Barillas, L. *Powerlessness. A Theory.* Oxford University Press, forthcoming (2027).
 
 **Peer-Reviewed Articles**
 
