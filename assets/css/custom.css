@@ -1,0 +1,339 @@
+/* ==========================================================================
+   Site look: centered name header, caps navigation bar, single wide column,
+   Catamaran body text, Patua One headings. Loaded after main.css.
+   ========================================================================== */
+
+/* ---- Palette (light only; the dark-mode switch is removed) -------------- */
+:root,
+html[data-theme="dark"] {
+  --global-bg-color: #fff;
+  --global-footer-bg-color: #fff;
+  --global-border-color: #e3e3e3;
+  --global-dark-border-color: #bdc1c4;
+  --global-text-color: #2a2a2a;
+  --global-text-color-light: #777;
+  --global-link-color: #5040ae;
+  --global-link-color-hover: #352a85;
+  --global-link-color-visited: #5040ae;
+  --global-masthead-link-color: #3b3b3b;
+  --global-masthead-link-color-hover: #000;
+  --global-fig-caption-color: #666;
+  --global-thead-color: #f2f2f2;
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #2a2a2a;
+  font-family: "Catamaran", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* ---- Header: centered name + navigation bar ----------------------------- */
+.site-header {
+  background: #fff;
+  text-align: center;
+}
+
+.site-header__title {
+  padding: 26px 16px 24px;
+}
+
+.site-header__title a {
+  font-family: "Patua One", Georgia, serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+}
+
+.site-header__nav {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.site-header__nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 34px;
+  margin: 0 0 -1px;
+  padding: 3px 16px 0;
+  list-style: none;
+}
+
+.site-header__nav .masthead__menu-item {
+  display: block;
+  margin: 0;
+  background: none;
+  list-style: none;
+}
+
+.site-header__nav .masthead__menu-item a {
+  display: block;
+  padding: 0 0 8px;
+  border-bottom: 3px solid transparent;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #3b3b3b;
+  text-decoration: none;
+}
+
+.site-header__nav .masthead__menu-item a:hover {
+  color: #000;
+  border-bottom-color: #cfcfcf;
+}
+
+.site-header__nav .masthead__menu-item.selected a {
+  border-bottom-color: #2b2b2b;
+  color: #3b3b3b;
+  font-weight: 400;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* ---- Single wide column, no sidebar ------------------------------------- */
+.sidebar {
+  display: none !important;
+}
+
+#main {
+  float: none;
+  width: auto;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  animation: none;
+}
+
+.page,
+.archive {
+  float: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page__inner-wrap .page__content,
+.page__inner-wrap .page__meta,
+.page__inner-wrap .page__share {
+  float: none;
+  width: 100%;
+  margin-left: 0;
+}
+
+.page__title {
+  margin: 34px 0 14px;
+  font-family: "Patua One", Georgia, serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* The home page has no title; keep it for screen readers only */
+.page:has(.home-intro) .page__title,
+.archive:has(.home-intro) .page__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* ---- Text ---------------------------------------------------------------- */
+.page__content p,
+.page__content li,
+.archive p,
+.archive li {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.page__content p,
+.archive p {
+  margin: 0 0 14px;
+}
+
+.page__content a,
+.archive a {
+  color: #5040ae;
+  text-decoration: none;
+}
+
+.page__content a:hover,
+.archive a:hover {
+  color: #352a85;
+  text-decoration: underline;
+}
+
+/* Entries are plain lines, not bulleted lists */
+.page__content ul,
+.archive ul {
+  margin: 0 0 6px;
+  padding: 0;
+  list-style: none;
+}
+
+.page__content ul ul,
+.archive ul ul {
+  margin: 8px 0 0 22px;
+}
+
+.page__content li,
+.archive li {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+/* Bold lead-in lines act as section labels */
+.page__content p:has(> strong:first-child),
+.archive p:has(> strong:first-child) {
+  margin-top: 30px;
+}
+
+.page__title + p:has(> strong:first-child),
+.page__inner-wrap > header + .page__content > p:first-child:has(> strong:first-child) {
+  margin-top: 0;
+}
+
+/* CV section headings (Education, Academic Positions, ...) */
+.archive h1:not(.page__title),
+.page__content h1 {
+  margin: 44px 0 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e3e3e3;
+  font-family: "Patua One", Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.archive h1:not(.page__title):first-of-type {
+  margin-top: 24px;
+}
+
+/* ---- Home: bio on the left, photo on the right -------------------------- */
+.home-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 480px) 388px;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 56px;
+}
+
+.home-intro__text p {
+  margin: 0 0 22px;
+}
+
+.home-intro__photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+@media (max-width: 800px) {
+  .home-intro {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+    margin-top: 32px;
+  }
+
+  .home-intro__photo {
+    order: -1;
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+}
+
+/* ---- Footer: quiet, in normal flow -------------------------------------- */
+body {
+  padding-bottom: 0;
+}
+
+.page__footer {
+  position: static;
+  float: none;
+  width: 100%;
+  margin-top: 64px;
+  background: #fff;
+  border-top: 1px solid #e6e6e6;
+  animation: none;
+  text-align: center;
+}
+
+.page__footer footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 18px 20px 24px;
+}
+
+.page__footer-follow {
+  display: none;
+}
+
+.page__footer-copyright {
+  font-family: "Catamaran", "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #777;
+}
+
+/* ---- Small screens ------------------------------------------------------- */
+@media (max-width: 600px) {
+  .site-header__title {
+    padding: 20px 16px 18px;
+  }
+
+  .site-header__title a {
+    font-size: 22px;
+  }
+
+  .site-header__nav ul {
+    gap: 0 18px;
+    padding-top: 4px;
+  }
+
+  .site-header__nav .masthead__menu-item a {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+  }
+
+  .page__title {
+    margin: 26px 0 12px;
+    font-size: 26px;
+  }
+
+  .archive h1:not(.page__title),
+  .page__content h1 {
+    font-size: 18px;
+  }
+}
