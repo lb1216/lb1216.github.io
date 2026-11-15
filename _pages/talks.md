@@ -2,7 +2,7 @@
 layout: archive
 title: "Talks"
 permalink: /talks/
-author_profile: true
+author_profile: false
 ---
 
 * "What is Unforgivable." Invited talk, Paris Nanterre University, Public Law. Nanterre, France, November 19, 2026.
