@@ -345,3 +345,29 @@ body {
     font-size: 14px;
   }
 }
+
+/* ---- Research: calm reading column, quieter reference list --------------- */
+.archive .research {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.archive .research p {
+  margin: 0 0 30px;
+  line-height: 30px;
+}
+
+.archive .research ul {
+  margin: 44px 0;
+}
+
+.archive .research li {
+  margin: 0 0 26px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #4a4a4a;
+}
+
+.archive .research li:last-child {
+  margin-bottom: 0;
+}
