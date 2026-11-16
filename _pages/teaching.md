@@ -13,10 +13,7 @@ author_profile: false
 * Powerlessness: A Philosophical Exploration (Spring 2023)
 * Race, Gender, and Social Justice (Spring 2024)
 * 20th Century European Philosophy (Fall 2024)
-* Advanced French: Reading and Writing (Fall 2021, 2022, 2024, 2025, 2026)
-* Elementary French II (Spring 2026)
 * Topics in Francophone Culture: "#MeToo in France" (Spring 2022)
-* Advanced French: Listening and Speaking (Spring 2024)
 * Representations of Madness in World Literature (Spring 2023)
 * Survey in Women's Studies
 
