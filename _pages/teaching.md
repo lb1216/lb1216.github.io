@@ -29,18 +29,3 @@ author_profile: false
 * Ethics of Sciences and Technologies (Fall 2020)
 * Introduction to Animal Ethics (Spring 2020)
 * Medical Ethics (Spring 2020)
-
-**PSL Research University** — Instructor, Undergraduate Courses, 2014–2019
-
-* Nietzsche and Political Philosophy (Spring 2019)
-* Philosophy of Art, "Around the Rothko Chapel" (Fall 2017, Spring 2018)
-* Introduction to Ethics (Fall 2014, Spring 2015, Fall 2015, Spring 2016)
-* Introduction to Political Philosophy (Fall 2014, Spring 2015, Fall 2017, Spring 2018)
-
-**Catholic University of Paris** — Instructor, Undergraduate Courses, 2017
-
-* Political Philosophy, "Theories of Justice" (Spring 2017)
-
-**École Supérieure de Physique et de Chimie de Paris (ESPCI)** — Instructor, Graduate Courses, 2017
-
-* Research Ethics (Fall 2017)
