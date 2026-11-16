@@ -150,7 +150,6 @@ analytics:
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -178,6 +177,28 @@ exclude:
   - README
   - tmp
   - vendor
+  - AGENTS.md
+  - markdown_generator
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - talkmap_out.ipynb
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/sitemap.md
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/terms.md
+  - files/bibtex1.bib
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
 keep_files:
   - .git
   - .svn
