@@ -7,6 +7,7 @@ redirect_from:
 author_profile: false
 ---
 
+{% capture research %}
 My book, *Powerlessness. A Theory* (forthcoming with OUP in the Studies in Feminist Philosophy series) offers an account of the concept of powerlessness from the perspective of feminist moral psychology. Philosophical literature on domination tends to focus on the objective effects of power; psychological literature on helplessness tends to collapse those effects onto individual distress. Like domination, powerlessness requires an objective limitation; like helplessness, it requires an affective tonality. But both accounts miss a feature I take to be central to powerlessness: the entitlement to self-efficacy. I argue that powerlessness is best understood as the affective protest of blocked agency. It requires not only being prevented from doing something, or experiencing distress, but a distress structured by the claim that one is entitled to do, say, or be what one is prevented from doing, saying, or being.
 
 * Barillas, L. *Powerlessness. A Theory.* Oxford University Press, forthcoming (2027).
@@ -25,3 +26,8 @@ My book, *Powerlessness. A Theory* (forthcoming with OUP in the Studies in Femin
 * Barillas, L. (2016). "L'instant et la durée: Jankélévitch et les soins palliatifs." In J.-P. Pierron and É. Lemoine (eds.), *La Mort et le soin*. Paris: PUF.
 
 I am currently working on the moral psychology of entitlement. Feeling entitled is one of the most powerful sources of moral demand. To see ourselves as owed fair treatment is to claim our standing as moral agents, and so to express self-respect. But the same sense of entitlement can fuel demands that are unfair, noxious, and oppressive. Drawing on feminist moral psychology, this project develops an account of entitlement that explains how a single attitude can ground both self-respect and oppression, and what distinguishes legitimate claims from illegitimate ones.
+{% endcapture %}
+
+<div class="research">
+{{ research | markdownify }}
+</div>
